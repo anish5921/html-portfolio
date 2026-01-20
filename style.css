@@ -1,1 +1,22 @@
-
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1E212B;
+}
+.nav-bar ul li:first-child{
+    margin-right: auto;
+    font-weight: bold;
+}
+.nav-bar ul li a{
+    display: block;
+    color: #E0E6ED;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover{
+    background-color: #FF8C00;
+}
